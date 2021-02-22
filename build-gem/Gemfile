@@ -1,0 +1,2 @@
+source ENV['ARTIFACTORY_REPO']
+gemspec

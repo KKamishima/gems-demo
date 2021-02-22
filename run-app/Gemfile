@@ -1,0 +1,2 @@
+source ENV['ARTIFACTORY_REPO']
+gem 'demo_hello_world', '~>0.0.0'
