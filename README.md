@@ -20,7 +20,7 @@
     * curl http://\<artifactory\>:8081/artifactory/api/gems/gems-virtual/api/v1/api_key.yaml -u \<user\>:\<apikey\> > ~/.gem/credentials
     * chmod 600 ~/.gem/credentials
 * Set another environment variable
-    * export RUBYGEMS_HOST=http://localhost:8081/artifactory/api/gems/gems-virtual
+    * export RUBYGEMS_HOST=http://\<artifactory\>:8081/artifactory/api/gems/gems-virtual
     * Note: Be sure NOT to add / at the end
 * Go to build-gem directory
 * Run 'gem build'
